@@ -1,0 +1,179 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+.menu ul li a {
+    margin: 0 0px;
+}
+.menu, .nav_2 ul {
+    margin: 24px 10px;
+}
+/*=================hero Banner====================*/
+
+.b_image img {
+ 
+    left: 17px;
+    margin-top: 47px;
+}
+.b_text {
+    margin-top: 50px;
+}
+.b_text h2 {
+    font-size: 31px;  
+}
+.b_text p {
+    font-size: 13px;   
+}
+.button_b {
+    padding: 12px 28px;
+    
+}
+/*========Card=======*/
+.card-img-top{
+    width: 18rem;
+
+}
+/*=====subscribe form=====*/
+.signup_form {
+     margin-left: 0px; 
+   
+}
+.signup_f {
+    font-size: 14px;
+    padding: 21px;
+    width: 70%;
+    
+}
+.signup_form button {
+    font-size: 13px;
+    margin-top: 10px;
+    padding: 10px 21px;
+}
+
+ footer {
+    background: #002347;
+    padding: 50px 0px 50px;
+}
+.f_widget_last {
+    margin-left: 39px;
+}	
+ }
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+			.menu ul li a {
+    margin: 0 0px;
+}
+.menu, .nav_2 ul {
+    margin: 24px 10px;
+}
+.f_margin{
+	margin-right: 36px ;
+}
+/*======================Hero Banner========================*/
+.b_image img {
+    left: 105px;
+    margin-top: 50px;
+}
+.b_text h2 {
+    font-size: 31px;
+}
+.b_text p {
+    font-size: 14px;   
+}
+/*===========Card==========*/
+.card-img-top{
+    width: 32rem;
+
+}
+.card_text-m{
+           width: 33rem;
+
+    }
+    footer {
+    background: #002347;
+    padding: 50px 0px 50px;
+}
+.footer_title {
+    margin-top: 21px;}
+
+.f_widget_last {
+    margin-left: 35px;
+
+
+}
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	/*===============navber===============*/
+	.menu ul li a {
+    margin: 0 0px;
+}
+.menu, .nav_2 ul {
+    margin: 24px 10px;
+}
+.f-margin{
+	margin-right: 36px;
+}
+   /*======================Hero Banner=====================*/
+   .b_text h2 {
+    font-size: 30px; 
+}
+.b_text p {
+    font-size: 13px; 
+}
+.b_image img {
+    left: 60px;
+    margin-top: 48px;
+}
+/*=======Card========*/
+.card-img-top{
+    width: 20rem;
+
+}
+footer {
+    background: #002347;
+    padding: 50px 0px 50px;
+}
+.f_widget_last {
+    margin-left: 35px;
+
+
+ }
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+/*=================Hero Banner==================*/
+.b_image img {
+    left: 75px;
+    margin-top: 55px;
+}
+.b_text h2 {
+    font-size: 42px;
+
+}
+
+
+
+ }
+
+@media (min-width: 1200px) and (max-width: 1499.98px) { 
+
+       .subscription_form{
+  width: 70%;
+  box-shadow: 0px -5px 20px 0px rgb(56 74 235 / 10%);
+  padding:45px 10px;
+  position: relative;
+  left: 213px;
+}
+footer{
+    padding: 195px 0px 120px;
+}
+.f_widget_last {
+    margin-left: 35px;
+
+}
+ 
+
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1500px) { ... }
